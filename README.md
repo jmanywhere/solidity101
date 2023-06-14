@@ -1,4 +1,7 @@
+# Dapp Built on NextJS
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+It's initial intent is to educate future solidity Devs into how to properly use web3 library [Wagmi](https://wagmi.sh) to interact with the blockchain.
 
 ## Getting Started
 
@@ -32,3 +35,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Caveats
+Although we are using NextJs App Router, the components are all rendered on the client side. Eventually I hope to get rid of hydration errors, but it's a good start for now.
+
+The course is given in Spanish and hence the actual content of the page is in spanish.

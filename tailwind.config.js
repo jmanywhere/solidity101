@@ -12,7 +12,20 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        syneMono: ['var(--font-syne-mono)']
+      },
     },
   },
-  plugins: [],
+  daisyui:{
+    base: false,
+    themes:[
+      {
+        myTheme:{
+          primary: "#2563EB"
+        }
+      }
+    ]
+  },
+  plugins: [require("daisyui")],
 }

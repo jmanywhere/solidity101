@@ -12,14 +12,14 @@ const SignUpSection = () => {
   const { address } = useAccount();
 
   const { data, refetch } = useContractRead({
-    address: "0x26332eA089b8928F75a065a3A1Bd828939c5Ed2a",
+    address: "0x05873E54d8c1800A57d93B3fFd24f79E78Db74F0",
     abi: studentABI,
     functionName: "inscrito",
     args: [address || zeroAddress],
   });
 
   const { isSuccess, write, isLoading, error, reset } = useContractWrite({
-    address: "0x26332eA089b8928F75a065a3A1Bd828939c5Ed2a",
+    address: "0x05873E54d8c1800A57d93B3fFd24f79E78Db74F0",
     abi: studentABI,
     functionName: "inscribirme",
   });
